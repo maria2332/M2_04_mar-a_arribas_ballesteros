@@ -7,7 +7,8 @@ lista.append("tubo")
 print(lista)
 #la lista si se puede modificar y la tupla no
 
-print (lista [1])
+print(lista [1])
+
 print(len(lista))
 
 lista[1:2]=["carro"]

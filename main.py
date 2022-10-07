@@ -4,8 +4,8 @@ num2 = float(input("Introduzca otro numero: "))
 num3 = float(input("Introduzca otro numero: "))
 
 lista=(num1,num2,num3)
+sumatorio = sum(lista)
 print("El sumatorio total de la lista es: ",sum(lista))
-sumatorio = num1 + num2 +num3
 
 #ejercicio 4
 t_numeros = len(lista)
