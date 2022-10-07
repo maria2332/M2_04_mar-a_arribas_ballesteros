@@ -1,11 +1,11 @@
-#ejercicio 1
-tupla = ("pala","pelota","camiseta","pantalon")
+tupla = ("pala","pelota","red","pared")
 print(tupla)
-
 lista = list(tupla)
+#convierto la tupla en lista 
 
-lista.append("mano")
+lista.append("tubo")
 print(lista)
+#la lista si se puede modificar y la tupla no
 
 print (lista [1])
 print(len(lista))
