@@ -1,3 +1,5 @@
 #ejercicio 2
-x = set('hola que tal')
-print(x)
+set = set('pelota''pala''red')
+print(set)
+set.add(tubo)
+print(set)

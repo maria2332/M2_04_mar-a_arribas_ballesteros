@@ -1,17 +1,13 @@
-tupla = ("pala","pelota","red","pared")
-print(tupla)
-lista = list(tupla)
-#convierto la tupla en lista 
+#ejercicio 3
+num1 = float(input("Introduzca un numero: "))
+num2 = float(input("Introduzca otro numero: "))
+num3 = float(input("Introduzca otro numero: "))
 
-lista.append("tubo")
-print(lista)
-#la lista si se puede modificar y la tupla no
+lista=(num1,num2,num3)
+print(sum(lista))
+sumatorio = num1 + num2 +num3
 
-print (lista [1])
-print(len(lista))
-
-lista[1:2]=["carro"]
-print(lista)
-
-lista.clear()
-print (lista)
+#ejercicio 4
+t_numeros = len(lista)
+media = (sumatorio)/t_numeros
+print(media)
